@@ -1,0 +1,4 @@
+﻿  Main.cpp
+c:\users\cris\desktop\proyectbaldosasremastered\proyectbaldosasremastered\animation.h(44): warning C4244: '=': conversión de 'float' a 'int'; posible pérdida de datos
+c:\users\cris\desktop\proyectbaldosasremastered\proyectbaldosasremastered\animation.h(45): warning C4244: '=': conversión de 'float' a 'int'; posible pérdida de datos
+  ProyectBaldosasRemastered.vcxproj -> C:\Users\CriS\Desktop\ProyectBaldosasRemastered\Debug\ProyectBaldosasRemastered.exe
