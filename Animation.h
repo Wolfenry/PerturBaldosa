@@ -3,6 +3,7 @@
 using namespace sf;
 using namespace std;
 
+///MARCE PUTO
 
 class Animation
 {
@@ -13,7 +14,8 @@ public:
 	~Animation();
 
 	void Update(float deltatime, int row = 0);
-
+	
+	
 
 
 public:
