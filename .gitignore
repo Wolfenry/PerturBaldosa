@@ -1,3 +1,5 @@
 *.dll
 *.png
-*.txt
+*.vcxproj
+*.vcxproj.user
+*.vcxproj.filters
