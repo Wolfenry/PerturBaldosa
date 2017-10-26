@@ -1,21 +1,17 @@
 #pragma once
 #include <SFML\Graphics.hpp>
 #include <iostream>
+#include "Animation.h"
+#include "Colision.h"
+
 using namespace sf;
 using namespace std;
 
 class Player
 {
 public:
-	Player(Vector2f size, Texture* textura, float posX, float posY)
-	{
-		
-		jugador.setPosition(posX, posY);
-		jugador.setSize(size);
-		jugador.setTexture(textura);
-
-	}
-
+	Player(Vector2f size, Texture* textura, float posX, float posY);
+	
 	void SetPosition(Vector2f pos);
 	Vector2f GetPosition();
 	float GetX();
@@ -25,11 +21,24 @@ public:
 	void SetTextureRect(IntRect &rect);
 	void Move(Vector2f mov);
 
+	Colision GetCol() { return Colision(jugador); }
+
 private:
 	int hp=3;
 	RectangleShape jugador;
 	
+	
 };
+
+Player::Player(Vector2f size, Texture* textura, float posX, float posY)
+{
+	jugador.setPosition(posX, posY);
+	jugador.setSize(size);
+	jugador.setTexture(textura);
+	jugador.setOrigin(size / 2.0f);
+}
+
+
 
 void Player::Move(Vector2f mov)
 {

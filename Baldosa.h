@@ -23,7 +23,6 @@ private:
 
 
 
-
 Baldosa::Baldosa(Vector2f size, Texture* textura, float posX, float posY)
 {
 	baldosa.setPosition(posX, posY);

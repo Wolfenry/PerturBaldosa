@@ -124,8 +124,12 @@
   <ItemGroup>
     <ClInclude Include="Animation.h" />
     <ClInclude Include="Baldosa.h" />
+    <ClInclude Include="Colision.h" />
     <ClInclude Include="FuncionesGenerales.h" />
+    <ClInclude Include="Music.h" />
+    <ClInclude Include="Objeto.h" />
     <ClInclude Include="Player.h" />
+    <ClInclude Include="SounEffect.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
